@@ -1,8 +1,34 @@
 body {
-  padding: 50px;
+  
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+body {
+  background-color: #6E6D6D;
+}
+
+.menu {
+  background-color: white;
+  border-bottom: 2px solid black;
+  height: 140px;
+  padding: 20px;
+}
+.menu .logo {
+  height:100%;
+  width:100%;
+  max-width:300px;
+  float: left;
+  background-image: url('/images/logos/Logo_ForGen.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding:10px;
+}
+
+.services {
+  padding:50px;
 }
