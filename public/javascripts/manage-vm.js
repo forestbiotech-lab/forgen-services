@@ -5,7 +5,6 @@ $('document').ready(function(){
       success:function(data,textStatus,jqXHR){
         $('p.statusVM').text(data)
       }
-z
     })
   })
   $('button.statusVM').click(function(){
