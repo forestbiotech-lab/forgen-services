@@ -7,11 +7,11 @@ const { exec } = require('child_process');
 
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/services/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/vm/start',function(req,res){
+router.get('/services/vm/start',function(req,res){
   exec(instructions["startVM"], (error, stdout, stderr) => {
     if (error) {
       console.error(`exec error: ${error}`);
@@ -24,7 +24,7 @@ router.get('/vm/start',function(req,res){
   });
 })
 
-router.get('/vm/status',function(req,res){
+router.get('/services/vm/status',function(req,res){
   exec(instructions["statusVM"], (error, stdout, stderr) => {
     if (error) {
       console.error(`exec error: ${error}`);
