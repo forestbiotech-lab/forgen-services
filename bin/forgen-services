@@ -2,5 +2,5 @@
 
 #Executable script for systemd
 cd /home/brunocosta/git/forgen-services
-nodemon start
+npm start
 
