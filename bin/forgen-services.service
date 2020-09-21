@@ -1,0 +1,12 @@
+[Unit]
+Description=forgen-serivices web server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=brunocosta
+Type=simple
+ExecStart=/home/brunocosta/git/forgen-services/bin/forgen-services
+
+[Install]
+WantedBy=multi-user.target

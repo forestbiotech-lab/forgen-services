@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+#Executable script for systemd
+cd /home/brunocosta/git/forgen-services
+nodemon start
+
