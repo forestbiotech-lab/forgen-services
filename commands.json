@@ -1,0 +1,4 @@
+{
+  "startVM":"vboxmanage startvm \"44f99909-9633-43b6-b8a9-9b0cc0a12611\" --type headless ",
+  "statusVM":"vboxmanage showvminfo \"44f99909-9633-43b6-b8a9-9b0cc0a12611\" --machinereadable | grep VMState= | cut -d\\\" -f2"
+}

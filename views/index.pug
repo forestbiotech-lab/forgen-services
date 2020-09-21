@@ -3,6 +3,9 @@ extends layout
 block content
   .menu
     .logo  
+    .auth
+      button.btn.btn-success.login Login
+      button.btn.logout.d-none Logout
   .services
     .card
       .card-header.bg-success
@@ -14,10 +17,12 @@ block content
               img.border.rounded(src="/images/logos/vbox_logo2_gradient.png")
             col-md-8
               h1 Virtual machine (Chromas)
-              button.btn.btn-success Start VM
+              button.btn.btn-success.startVM Start VM
               button.btn.btn-danger Stop VM
-              button.btn.btn-secondary Get status
-              p Current status: N/A
+              button.btn.btn-secondary.statusVM Get status
+              p.statusVM 
+                span.badge.badge-light Current status: 
+                span.status N/A
 
 
 

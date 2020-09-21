@@ -12,6 +12,7 @@ body {
 }
 
 .menu {
+  position: relative;
   background-color: white;
   border-bottom: 2px solid black;
   height: 140px;
@@ -27,6 +28,12 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   padding:10px;
+}
+
+.menu .auth {
+  position: absolute;
+  right:0px;
+  bottom:0px;
 }
 
 .services {
