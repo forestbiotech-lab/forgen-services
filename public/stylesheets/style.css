@@ -23,7 +23,7 @@ body {
   width:100%;
   max-width:300px;
   float: left;
-  background-image: url('/images/logos/Logo_ForGen.png');
+  background-image: url('images/logos/Logo_ForGen.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
